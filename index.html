@@ -1,270 +1,402 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- css link -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.jpg">
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.jpg" />
 
     <!-- icon's link -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-    <title> Aman</title>
-    
-</head>
+    <title>Aman</title>
+  </head>
 
-<body>
-
+  <body>
     <!-- Header -->
 
     <header class="header-1 header-animation">
-        <nav class="nav bd-grid">
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-            <div>
-                <a href="#" class="nav__logo">Aman</a>
-                
-            </div>
-            <div class="nav__menu" id="nav-menu">
-                <div class="nav__close" id="nav-close">
-                    <i class='bx bx-x'></i>
-                </div>
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#works" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div>
+          <a href="#" class="nav__logo">Aman</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="l-main">
+      <!-- Home -->
 
-        <!-- Home -->
-
-        <section class="home" id="home">
-            <!-- <img src="/public/img/bg.jpg" alt=""> -->
-            <div class="home__container bd-grid">
-                <div class="home__data">
-
-                    <h1 class="home__title"> Frontend Web Developer</h1>
-                    <span class="home__profession">Hello! I'm a Web developer. I code beautifully simple things, and I love what I do.</span>
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/aman-rawat-01/" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://github.com/aman-rawat-01" class="home__social-link"><i class='bx bxl-github'></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100010798548012" class="home__social-link"><i class='bx bxl-facebook'></i></a>
-                    </div>
-
-                    <a download="" href="/img/Resume.pdf" class="button home__button">Download Resume</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- About -->
-
-        <section class="about section" id="about">
-            <span class="section-subtitle">My intro</span>
-            <h2 class="section-title">About Me</h2>
-
-            <div class="about-container bd-grid">
-                <div class="about-data ">
-                    <img src="/img/aman.jpg" alt="" class="about__img">
-                    <p class="about-description">Hi! I'm a frontend developer, passionate about creating and developing
-                        web interfaces. I've a bachelor's degree in Computer Application. I've worked on multiple
-                        quality projects.</p>
-                    
-                </div>
-
-                <div class="about__information">
-                    <h3 class="about__information-title">Information</h3>
-                    <div class="about__information-data">
-                        <i class="bx bx-user about__information-icon"></i>
-                        <span>Aman Rawat</span>
-                    </div>
-
-                    <div class="about__information-data">
-                        <i class="bx bx-envelope about__information-icon"></i>
-                        <span>amanrawat0919@gmail.com</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Skills -->
-
-        <section class="skills section" id="skills">
-            <span class="section-subtitle">My Skills</span>
-            <h2 class="section-title">Things I've learned</h2>
-
-            <div class="skills__container bd-grid">
-                <div class="skills__content">
-                    <h3 class="skills__subtitle">Frontend</h3>
-
-                    <div class="skills__data">
-                        <span class="skills__name">HTML</span><br>
-                        <span class="skills__name">Css</span><br>
-                        <span class="skills__name">Javascript</span><br>
-                        <span class="skills__name">React.js</span>
-                    </div>
-                </div>
-
-                <div class="skills__content">
-                    <h3 class="skills__subtitle">Backend</h3>
-
-                    <div class="skills__data">
-                        <span class="skills__name">Node js</span><br>
-                        <span class="skills__name">Mongo DB</span>
-
-                    </div>
-                </div>
+      <section class="home" id="home">
+        <!-- <img src="/public/img/bg.jpg" alt=""> -->
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">Web Developer</h1>
+            <span class="home__profession"
+              >Hello! I'm a Web developer. I code beautifully simple things, and
+              I love what I do.</span
+            >
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/aman-rawat-01/"
+                class="home__social-link"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/aman-rawat-01"
+                class="home__social-link"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100010798548012"
+                class="home__social-link"
+                ><i class="bx bxl-facebook"></i
+              ></a>
             </div>
 
-            
-            <!-- projects -->
-            <div class="project section" id="projects">
-                <div class="project__container bd-grid">
-                    <div class="project__data">
-                        <h2 class="section-title project__title">Do you have a project in mind?</h2>
-                        <p class="project__description">If you have a project that you want to carry out, do tell me
-                            what it
-                            is, and what services I can offer you, contact me directly here.</p>
-                        <a href="#contact" class="button button__light">Contact me</a>
-                    </div>
+            <a download="" href="/img/Resume.pdf" class="button home__button"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </section>
 
-                    <img src="/img/projectmind.jpg" alt="" class="project__img">
-                </div>
+      <!-- About -->
+
+      <section class="about section" id="about">
+        <span class="section-subtitle">My intro</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container bd-grid">
+          <div class="about-data">
+            <img src="/img/aman.jpg" alt="" class="about__img" />
+            <p class="about-description">
+              Hi! I'm a web developer, passionate about creating and developing
+              web interfaces. I've a bachelor's degree in Computer Application.
+              I enjoy creating custom websites to help businesses to do better
+              online.
+            </p>
+          </div>
+
+          <div class="about__information">
+            <h3 class="about__information-title">Information</h3>
+            <div class="about__information-data">
+              <i class="bx bx-user about__information-icon"></i>
+              <span>Aman Rawat</span>
             </div>
-        </section>
 
-        <!-- works -->
-
-        <section class="works section" id="works">
-            <span class="section-subtitle">My portfolio</span>
-            <h2 class="section-title">Recent Work</h2>
-
-            <div class="works__container bd-grid">
-                <div class="works__img">
-                    <img src="/img/work1.jpg" alt="">
-
-                    <div class="works__data">
-                        <span class="works__title">Newsletter Sign Up</span>
-                        <a href="https://github.com/aman-rawat-01/Newsletter-SignUp" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Code</a>
-                        <a href="https://shielded-badlands-38522.herokuapp.com/" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Site</a>
-                    </div>
-                </div>
-
-                <div class="works__img">
-                    <img src="/img/work2.jpg" alt="">
-
-                    <div class="works__data">
-                        <span class="works__title">Keeper App</span>
-                        <a href="https://github.com/aman-rawat-01/keeper-app" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Code</a>
-                        <a href="https://aman-rawat-01.github.io/keeper-app/" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Site</a>
-                    </div>
-                </div>
-                
-                <div class="works__img">
-                    <img src="/img/work3.jpg" alt="">
-
-                    <div class="works__data">
-                        <span class="works__title">Music App</span>
-                        <a href="https://github.com/aman-rawat-01/music-app" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Code</a>
-                        <a href="https://aman-rawat-01.github.io/music-app/" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Site</a>
-                    </div>
-                </div>
-
-                <div class="works__img">
-                    <img src="/img/work4.jpg" alt="">
-
-                    <div class="works__data">
-                        <span class="works__title">Simon Game</span>
-                        <a href="https://github.com/aman-rawat-01/Simon-game" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Code</a>
-                        <a href="https://aman-rawat-01.github.io/Simon-game/" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Site</a>
-                    </div>
-                </div>
-
-
-                <div class="works__img">
-                    <img src="/img/work5.jpg" alt="">
-
-                    <div class="works__data">
-                        <span class="works__title">Dog Website</span>
-                        <a href="https://github.com/aman-rawat-01/Dog-website" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Code</a>
-                        <a href="https://aman-rawat-01.github.io/Dog-website/" class="works__link works__text" target="_blank"><i class="bx bx-link-alt work__icons"></i> Site</a>
-                    </div>
-                </div>
- 
+            <div class="about__information-data">
+              <i class="bx bx-envelope about__information-icon"></i>
+              <span>amanrawat0919@gmail.com</span>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- contact -->
+      <!-- Skills -->
 
-        <section class="contact section" id="contact">
-            <span class="section-subtitle">Contact Information</span>
-            <h2 class="section-title">Get in Touch</h2>
-            <div class="contact__container bd-grid">
-                <form action="/" method="POST" class="contact__form">
-                    <div class="contact__inputs">
-                        <input type="text" placeholder="First Name" class="contact__input" name="FName" required autofocus>
-                        <input type="text" placeholder="Last Name" class="contact__input" name="LName" required>
-                        <input type="mail" placeholder="Email" class="contact__input" name="email" required>
-                    </div>
+      <section class="skills section" id="skills">
+        <span class="section-subtitle">My Skills</span>
+        <h2 class="section-title">Things I've learned</h2>
 
-                    <input type="text" placeholder="project" class="contact__input" name="project" required>
+        <div class="skills__container bd-grid">
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Frontend</h3>
 
-                    <textarea id="msg" cols="0" rows="10" placeholder="Message" class="contact__input" name="message" required></textarea>
-
-                    <input name="send" type="submit" value="Send Message" class="button contact__button">
-                </form>
-
-                <div>
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">Linkedin</h3>
-                        <a href="https://www.linkedin.com/in/aman-rawat-01/" class="footer__link" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    </div>
-
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">Email <i class='bx bxs-envelope'></i></h3>
-                        <span class="contact__text">amanrawat0919@gmail.com</span>
-                    </div>
-
-                </div>
+            <div class="skills__data">
+              <span class="skills__name">HTML</span><br />
+              <span class="skills__name">Css</span><br />
+              <span class="skills__name">JavaScript</span><br />
+              <span class="skills__name">React.js</span>
             </div>
-        </section>
+          </div>
 
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Backend</h3>
+
+            <div class="skills__data">
+              <span class="skills__name">Node js</span><br />
+              <span class="skills__name">Express js</span><br />
+              <span class="skills__name">Embedded JavaScript</span><br />
+              <span class="skills__name">Mongo DB</span><br />
+              <span class="skills__name">Mongoose</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- projects -->
+        <div class="project section" id="projects">
+          <div class="project__container bd-grid">
+            <div class="project__data">
+              <h2 class="section-title project__title">
+                Do you have a project in mind?
+              </h2>
+              <p class="project__description">
+                If you have a project that you want to carry out, do tell me
+                what it is, and what services I can offer you, contact me
+                directly here.
+              </p>
+              <a href="#contact" class="button button__light">Contact me</a>
+            </div>
+
+            <img src="/img/projectmind.jpg" alt="" class="project__img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- works -->
+
+      <section class="works section" id="works">
+        <span class="section-subtitle">My portfolio</span>
+        <h2 class="section-title">Recent Work</h2>
+
+        <div class="works__container bd-grid">
+          <div class="works__img">
+            <img src="/img/work1.jpg" alt="" />
+
+            <div class="works__data">
+              <span class="works__title">Newsletter Sign Up</span>
+              <a
+                href="https://github.com/aman-rawat-01/Newsletter-SignUp"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Code</a
+              >
+              <a
+                href="https://shielded-badlands-38522.herokuapp.com/"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Site</a
+              >
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="/img/work2.jpg" alt="" />
+
+            <div class="works__data">
+              <span class="works__title">Keeper App</span>
+              <a
+                href="https://github.com/aman-rawat-01/keeper-app"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Code</a
+              >
+              <a
+                href="https://aman-rawat-01.github.io/keeper-app/"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Site</a
+              >
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="/img/work3.jpg" alt="" />
+
+            <div class="works__data">
+              <span class="works__title">Music App</span>
+              <a
+                href="https://github.com/aman-rawat-01/music-app"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Code</a
+              >
+              <a
+                href="https://aman-rawat-01.github.io/music-app/"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Site</a
+              >
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="/img/work4.jpg" alt="" />
+
+            <div class="works__data">
+              <span class="works__title">Simon Game</span>
+              <a
+                href="https://github.com/aman-rawat-01/Simon-game"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Code</a
+              >
+              <a
+                href="https://aman-rawat-01.github.io/Simon-game/"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Site</a
+              >
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="/img/work5.jpg" alt="" />
+
+            <div class="works__data">
+              <span class="works__title">Dog Website</span>
+              <a
+                href="https://github.com/aman-rawat-01/Dog-website"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Code</a
+              >
+              <a
+                href="https://aman-rawat-01.github.io/Dog-website/"
+                class="works__link works__text"
+                target="_blank"
+                ><i class="bx bx-link-alt work__icons"></i> Site</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Contact Information</span>
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact__container bd-grid">
+          <form action="/" method="POST" class="contact__form">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                placeholder="First Name"
+                class="contact__input"
+                name="FName"
+                required
+                autofocus
+              />
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="contact__input"
+                name="LName"
+                required
+              />
+              <input
+                type="mail"
+                placeholder="Email"
+                class="contact__input"
+                name="email"
+                required
+              />
+            </div>
+
+            <input
+              type="text"
+              placeholder="project"
+              class="contact__input"
+              name="project"
+              required
+            />
+
+            <textarea
+              id="msg"
+              cols="0"
+              rows="10"
+              placeholder="Message"
+              class="contact__input"
+              name="message"
+              required
+            ></textarea>
+
+            <input
+              name="send"
+              type="submit"
+              value="Send Message"
+              class="button contact__button"
+            />
+          </form>
+
+          <div>
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Linkedin</h3>
+              <a
+                href="https://www.linkedin.com/in/aman-rawat-01/"
+                class="footer__link"
+                target="_blank"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </div>
+
+            <div class="contact__info">
+              <h3 class="contact__subtitle">
+                Email <i class="bx bxs-envelope"></i>
+              </h3>
+              <span class="contact__text">amanrawat0919@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--===== FOOTER =====-->
     <footer class="footer section">
-        <div class="footer__container bd-grid">
-            <h1 class="footer__title">Aman</h1>
-            <p class="footer__description">Thank you for visiting my website.</p>
+      <div class="footer__container bd-grid">
+        <h1 class="footer__title">Aman</h1>
+        <p class="footer__description">Thank you for visiting my website.</p>
 
-            <div class="fotter__social">
-                <a href="https://www.facebook.com/profile.php?id=100010798548012" class="footer__link" target="_blank"><i class='bx bxl-facebook'></i></a>
-                <a href="https://github.com/aman-rawat-01" class="footer__link" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/aman-rawat-01/" class="footer__link" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            </div>
-
-            <p class="footer__copy">All rights reserved by Aman 2021</p>
+        <div class="fotter__social">
+          <a
+            href="https://www.facebook.com/profile.php?id=100010798548012"
+            class="footer__link"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://github.com/aman-rawat-01"
+            class="footer__link"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/aman-rawat-01/"
+            class="footer__link"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
         </div>
+
+        <p class="footer__copy">All rights reserved by Aman 2021</p>
+      </div>
     </footer>
 
     <!--===== MAIN JS =====-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
-   
-
-</body>
-
-</html> 
+  </body>
+</html>
